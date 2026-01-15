@@ -1,7 +1,7 @@
 # Portfolio – Mathias Coninx
 
 ## Live website
-https://mathias-coninx-portfolio.netlify.app
+https://mathias-coninx-portfolio.netlify.app/portfolio/
 
 ## Opleiding
 Graduaat Digitale Vormgeving – PXL
