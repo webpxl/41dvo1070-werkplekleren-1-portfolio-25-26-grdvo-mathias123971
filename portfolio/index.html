@@ -1,25 +1,185 @@
 <!-- Portfolio page -->
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mathias Coninx | Portfolio</title>
+  <meta name="description" content="Portfolio van Mathias Coninx, student Digitale Vormgeving (PXL)." />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>Portfolio</h1>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#">Mathias Coninx</a>
 
-  <h2>Situering binnen Profiel DVO</h2>
-  <p>
-    Ik volg de opleiding Graduaat Digitale Vormgeving aan PXL.
-    Binnen dit profiel werk ik aan basisvaardigheden in HTML, CSS en JavaScript.
-  </p>
+      <nav class="nav" aria-label="Hoofdnavigatie">
+        <a href="#over">Over mij</a>
+        <a href="#waarom">Waarom</a>
+        <a href="#projecten">Projecten</a>
+        <a href="#speciaal">Special</a>
+        <a href="#weetjes">Weetjes</a>
+        <a href="/portfolio/">/portfolio</a>
+        <a href="privacy.txt">Privacy</a>
+      </nav>
+    </div>
+  </header>
 
-  <h2>Eindreflectie WPL1</h2>
-  <p>
-    Tijdens Werkplekleren 1 leerde ik werken met GitHub, Netlify
-    en het opzetten van een eenvoudige portfolio-website.
-    Ik ervaarde dat structuur en planning belangrijk zijn.
-  </p>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Hi, ik ben Mathias Coninx</h1>
+ Reed more
+      <p>
+        Ik ben 20 jaar en ik studeer Digitale Vormgeving aan Hogeschool PXL (Hasselt).
+        Ik kom uit de hotelschool, dus ik ben nog nieuw in design en codering, maar ik wil me vooral verdiepen in design.
+      </p>
+    </section>
+
+    <section id="over" class="section">
+      <h2>Korte voorstelling</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Wie ben ik?</h3>
+          <p>
+            Ik ben Mathias Coninx, student Digitale Vormgeving aan PXL in Hasselt.
+            Ik ben pas gestart met web en code, maar ik leer graag bij en wil stap voor stap vooruitgang maken.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Wat maakt mij speciaal?</h3>
+          <p>
+            Ik ben <strong>creatief</strong>, <strong>rustig</strong> en <strong>vriendelijk</strong>.
+            Ik werk graag in een duidelijke structuur en ik neem tijd om dingen te begrijpen en beter te maken.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Algemene gegevens</h3>
+          <ul>
+            <li><strong>Naam:</strong> Mathias Coninx</li>
+            <li><strong>Leeftijd:</strong> 20 jaar</li>
+            <li><strong>Opleiding:</strong> Digitale Vormgeving (Hogeschool PXL, Hasselt)</li>
+            <li><strong>Interesses:</strong> design, scripting (basis), web</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="waarom" class="section">
+      <h2>Waarom deze opleiding? Waarom ik?</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Waarom koos ik voor Digitale Vormgeving?</h3>
+          <p>
+            Ik koos voor Digitale Vormgeving omdat ik creatief wil werken en interesse heb in digitale ontwerpen.
+            Design ligt mij meer dan Web Essentials, maar ik wil ook de basis van web begrijpen om mijn ontwerpen te kunnen realiseren.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Waarom ben ik een goede designer/programmeur in wording?</h3>
+          <p>
+            Ik ben eerlijk over wat ik nog moeilijk vind, maar ik geef niet op.
+            Ik ben gemotiveerd om bij te leren, ik kan rustig doorwerken en ik wil vooral groeien in design.
+          </p>
+          <p class="muted">
+            (Ik ben nog beginner in code, maar ik werk stap voor stap en probeer mijn structuur en netheid te verbeteren.)
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projecten" class="section">
+      <h2>(School) projecten per categorie</h2>
+      <p class="muted">
+        Hieronder staan minstens 3 projecten. Per project: vak/context, wat ik zelf deed en wat ik leerde.
+      </p>
+
+      <h3>Schoolprojecten</h3>
+
+      <div class="projects">
+        <article class="card project">
+          <h4>Project 1 — Portfolio Website (WPL1)</h4>
+          <p><strong>Vak / context:</strong> Werkplekleren 1 / Web (PXL)</p>
+          <p><strong>Opdracht:</strong> Een portfolio-website bouwen met HTML, CSS en JavaScript en online publiceren.</p>
+          <p><strong>Wat deed ik zelf?</strong> Structuur opzetten (header/main/footer), pagina’s maken, repo beheren met commits, deploy via Netlify.</p>
+          <p><strong>Tools/technieken:</strong> HTML, CSS, JavaScript (basis), GitHub, Netlify.</p>
+        </article>
+
+        <article class="card project">
+          <h4>Project 2 — PE’s (Praktijkoefeningen)</h4>
+          <p><strong>Vak / context:</strong> Praktijkoefeningen binnen Digitale Vormgeving</p>
+          <p><strong>Opdracht:</strong> Oefeningen/kleine opdrachten om basisvaardigheden te trainen.</p>
+          <p><strong>Wat deed ik zelf?</strong> Oefeningen uitvoeren, feedback verwerken en proberen verbeteren in structuur en afwerking.</p>
+          <p><strong>Tools/technieken:</strong> (Vul aan: bv. Figma / Illustrator / … als je die gebruikte)</p>
+          <p class="muted">Tip: voeg hier 1 concreet voorbeeld toe van een oefening zodra je er één kan benoemen.</p>
+        </article>
+
+        <article class="card project">
+          <h4>Project 3 — Examens / evaluaties</h4>
+          <p><strong>Vak / context:</strong> Evaluaties binnen het academiejaar</p>
+          <p><strong>Wat was het?</strong> Opdrachten en toetsen waarbij ik onder tijdsdruk moest tonen wat ik geleerd had.</p>
+          <p><strong>Wat deed ik zelf?</strong> Voorbereiden, uitvoeren en achteraf analyseren wat beter kon.</p>
+          <p><strong>Wat ik leerde:</strong> dat structuur en herhaling (oefenen) bij web en code echt het verschil maken.</p>
+        </article>
+      </div>
+
+      <h3>Niet-schoolproject(en)</h3>
+      <article class="card project">
+        <h4>Niet-schoolproject — (VUL IN)</h4>
+        <p class="muted">
+          Je gaf nog geen niet-schoolproject door. Dit is verplicht. Vul hier iets in uit je hotelschool/privé:
+          bv. meegeholpen aan een evenement, stage, organisatie, vrijwilligerswerk, hobbyproject, …
+        </p>
+        <p><strong>Context:</strong> [bv. “Meegeholpen aan de organisatie van …”]</p>
+        <p><strong>Mijn rol:</strong> [bv. “Planning, communicatie, uitvoering ter plaatse …”]</p>
+        <p><strong>Resultaat:</strong> [bv. “Evenement liep vlot / tevreden klanten / teamwerk …”]</p>
+      </article>
+    </section>
+
+    <section id="speciaal" class="section">
+      <h2>Speciale sectie (verplicht)</h2>
+
+      <article class="card">
+        <h3>Eerlijk leerlogboek: wat ging goed en wat was moeilijk?</h3>
+        <ul>
+          <li><strong>Wat ging goed:</strong> creatief denken, rustig blijven, stap voor stap werken.</li>
+          <li><strong>Wat was moeilijk:</strong> Web Essentials en code vond ik uitdagend omdat ik nieuw ben in codering.</li>
+          <li><strong>Wat ik ermee doe:</strong> vaker oefenen, klein beginnen, en vooral extra focussen op design waar ik energie uit haal.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="weetjes" class="section">
+      <h2>Andere weetjes</h2>
+
+      <article class="card">
+        <ul>
+          <li>Ik wil me het komende jaar meer verdiepen in design en visuele afwerking.</li>
+          <li>Ik werk graag in een rustige flow en verbeter liever stap voor stap dan “alles ineens”.</li>
+          <li>Ik leer momenteel de basis van HTML/CSS/JS om mijn ontwerpen ook echt online te krijgen.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year"></span> Mathias Coninx</p>
+      <p>
+        <a href="/portfolio/">/portfolio</a> •
+        <a href="privacy.txt">Privacy-richtlijnen</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
+
+
